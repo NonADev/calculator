@@ -1,0 +1,38 @@
+.pad {
+    border: none;
+    height: 40px;
+    margin-top: 1px;
+    width: 25%;
+}
+
+.pad:focus {
+    border: 1px solid rgba(111, 119, 173, 0.79);
+}
+
+.number {
+    background-color: #f3f3f3;
+    margin-right: 1px;
+    width: calc(25% - 1px);
+}
+
+.simbol {
+    background-color: #dcdcdc;
+}
+
+.calculatorBase {
+    width: 98%;
+}
+
+.center{
+    margin: auto;
+}
+
+.inputBase {
+    width: calc(100% - 4px);
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    font-size: larger;
+    text-align: right;
+}
